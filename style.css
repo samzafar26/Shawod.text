@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #252525;
+}
+
+.text {
+  text-transform: uppercase;
+  font-family: "Source Sans 3", sans-serif;
+  letter-spacing: 10px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 10px deepskyblue, 0 0 20px lightskyblue, 0 0 30px white;
+  animation: anime1 5s linear infinite;
+}
+
+@keyframes anime1 {
+  0%,
+  100% {
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
+  }
+
+  1%,
+  10% {
+    color: white;
+    text-shadow: 0 0 10px deepskyblue, 0 0 20px lightskyblue, 0 0 30px white;
+  }
+
+  11%,
+  12% {
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
+  }
+
+  13%,
+  14% {
+    color: white;
+    text-shadow: 0 0 10px deepskyblue, 0 0 20px lightskyblue, 0 0 30px white;
+  }
+
+  15%,
+  16% {
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
+  }
+
+  20%,
+  70% {
+    color: white;
+    text-shadow: 0 0 10px deepskyblue, 0 0 20px lightskyblue, 0 0 30px white;
+  }
+
+  71%,
+  100% {
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
+  }
+}
+
+.textshadow {
+  margin-top: -38px;
+  margin-left: 12px;
+  text-transform: uppercase;
+  font-family: "Source Sans 3", sans-serif;
+  letter-spacing: 10px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 10px deepskyblue, 0 0 20px lightskyblue, 0 0 30px white;
+  animation: anime2 5s linear infinite;
+  transform: rotateX(180deg) skewX(-20deg);
+  filter: blur(2px);
+}
+
+@keyframes anime2 {
+  0%,
+  100% {
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
+  }
+
+  1%,
+  10% {
+    color: white;
+    text-shadow: 0 0 10px deepskyblue, 0 0 20px lightskyblue, 0 0 30px white;
+  }
+
+  11%,
+  12% {
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
+  }
+
+  13%,
+  14% {
+    color: white;
+    text-shadow: 0 0 10px deepskyblue, 0 0 20px lightskyblue, 0 0 30px white;
+  }
+
+  15%,
+  16% {
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
+  }
+
+  20%,
+  70% {
+    color: white;
+    text-shadow: 0 0 10px deepskyblue, 0 0 20px lightskyblue, 0 0 30px white;
+  }
+
+  71%,
+  100% {
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
+  }
+}
