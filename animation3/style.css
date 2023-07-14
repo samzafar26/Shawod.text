@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: #0091ea; */
+  background-image: url(Hampshire.jpg);
+  background-size: 100% 100%;
+}
+h1 {
+  position: relative;
+  font-size: 90px;
+  color: #000000;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.3vw #fff;
+}
+h1:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color:#1de50b;
+  overflow: hidden;
+  -webkit-text-stroke: 0vw #263238;
+  border-right: 4px solid #5fe705;
+  animation: animate 4s linear infinite;
+}
+
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
