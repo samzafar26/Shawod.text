@@ -16,7 +16,7 @@ body {
 }
 h1 {
   position: relative;
-  font-size: 90px;
+  font-size: 100px;
   color: #000000;
   line-height: 1.2em;
   text-transform: uppercase;
@@ -29,10 +29,10 @@ h1:before {
   left: 0;
   width: 0;
   height: 100%;
-  color:#1de50b;
+  color:#e5c40b;
   overflow: hidden;
-  -webkit-text-stroke: 0vw #263238;
-  border-right: 4px solid #5fe705;
+  -webkit-text-stroke: 0vw #2f9fe0;
+  border-right: 4px solid #e7df05;
   animation: animate 4s linear infinite;
 }
 
